@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'todos_app.todos',
+    'todos_app.forms_workshop',
 ]
 
 MIDDLEWARE = [
