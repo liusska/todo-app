@@ -31,7 +31,7 @@ class Category(models.Model):
 
 
 class Todo(models.Model):
-    text = models.CharField(
+    title = models.CharField(
         max_length=30,
     )
     state = models.BooleanField(
@@ -55,4 +55,4 @@ class Todo(models.Model):
         verbose_name_plural = 'Todos'
 
     def __str__(self):
-        return self.text
+        return self.title

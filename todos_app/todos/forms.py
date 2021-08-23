@@ -8,7 +8,7 @@ def validate_dot(value_to_validate):
 
 
 class CreateTodoFrom(forms.Form):
-    text = forms.CharField(
+    title = forms.CharField(
         max_length=30,
         validators=[
             validate_dot
